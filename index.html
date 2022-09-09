@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity=
+     "sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .click{
+            color:orange;
+        }
+        table,tr,td{
+          border:hidden;
+          text-align:center;
+        }
+        .name:after{
+           content:"*";
+           color:red;
+           font-size:x-large ;
+           
+        }
+        .firstlabel,.lastlabel{
+            font-size: small;
+            
+        }
+        .lastlabel{
+            margin-left: 170px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+               <div class="form">
+               <div class="Name"></div>
+                <h6 class="name">Name </h6>
+                <input class="first" type="text" name="first">
+                <input class="first" type="text" name="first"><br>
+                <label class="firstlabel">First</label>
+                <label class="lastlabel">Last</label><br><br>
+            <h6 class="name">Email </h6>
+            <input class="name" type="text" name="email"><br><br>
+           
+            <h6 class ="name">Your Experience </h6>
+            <span class="fa fa-thin fa-star click "></span>
+            <span class="fa fa-thin fa-star click "></span>
+            <span class="fa fa-thin fa-star click "></span>
+            <span class="fa fa-thin fa-star click "></span>
+            <span class="fa fa-thin fa-star click "></span><br><br>
+            <p> Overall,How would you rate your experience with us?</p>
+            <h6 class="name">How satisfied are you with </h6><br>
+            <table style= "width:75%">
+                <tr>
+                    <td></td> 
+                    <td>Very Unsatisfied</td>
+                    <td>Unsatisfied</td>
+                    <td>Neutral</td>
+                    <td>Satisfied</td>
+                    <td>Very Satisfied</td>
+                </tr>
+                <tr>
+                    <td style="text-align:left">Purchase</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left">Service</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left">Company Overall</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+            </table><br><br>
+            <h6 class="name">How likely are you to </h6><br>
+            <table style= "width:75%">
+                <tr>
+                    <td></td> 
+                    <td>Very Unlikely</td>
+                    <td>Unlikely</td>
+                    <td>Neutral</td>
+                    <td>likely</td>
+                    <td>Very Likely</td>
+                </tr>
+                <tr>
+                    <td style="text-align:left">Buy from us again</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left">Recommend our product to others</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left">Recommend our company to others</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+            </table><br><br>
+            <h6>Additional comments or suggestions</h6><br>
+            
+            <textarea id="tex" name="text" rows="6" cols="80"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+          
+        </div>
+
+    </div>  
+    </div>
+</div>
+</div>
+</body>
+</html>

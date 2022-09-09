@@ -1,0 +1,28 @@
+body{
+    background-color:white;
+}
+.container{
+    border-style: ridge;
+    width:70%;
+    height:40%;
+    background-color:white;
+    padding: 100px 60px;
+    /* margin:100px; */
+
+}
+.name{
+    width:46%;
+}
+.click{
+    color:orange;
+}
+.row{
+    margin-top: -90px;
+}
+
+
+
+/* .Name:after{
+    content:"*"9
+    color:red;
+} */
